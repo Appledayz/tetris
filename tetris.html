@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- 
+        테트리스 게임 구현 개인과제입니다.
+        제출자 : 송동일 / songdongdi@naver.com
+
+        *** 요구사항 ***
+        * ***canvas*** 태그 사용
+        * 다음 블록 미리보기 기능
+        * 획득 점수 표기
+        * 블록은 모양에 따라 색깔을 다르게 할 것
+        * 완성 줄 없애기 로직
+        * 키보드, 버튼 조작
+        * 버튼은 canvas 바깥에 일반 TAG로
+        * ***절대로*** 다른 기능 구현하지 말 것 (감점 요소)
+
+        *** 개인 규칙 ***
+        * 외부라이브러리 사용 x, 기본 자바스크립트로 구현
+        * canvas 크기 13 x 24 block size
+        * 게임 구역 13 x 17 block size (실제블록이 움직이는 구역)
+        * 1 block size / 30 px
+     -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="tetris.css">
+    <title>Tetris</title>
+</head>
+<body>
+    <canvas id="tetrisCanvas" width="390" height="720"></canvas>
+    <div>
+        <button type="button" id="LBtn" >좌</button>
+        <button type="button" id="RBtn">우</button>
+        <button type="button" id="rotateBtn">회전</button>
+        <button type="button" id="downBtn">하강</button>
+    </div>
+    <script src="tetris.js"></script>
+</body>
+</html>
