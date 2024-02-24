@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <!-- 
         테트리스 게임 구현 개인과제입니다.
         제출자 : 송동일 / songdongdi@naver.com
@@ -21,19 +21,20 @@
         * 게임 구역 13 x 17 block size (실제블록이 움직이는 구역)
         * 1 block size / 30 px
      -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="tetris.css">
+    <base href="/tetris/" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="tetris.css" />
     <title>Tetris</title>
-</head>
-<body>
+  </head>
+  <body>
     <canvas id="tetrisCanvas" width="390" height="720"></canvas>
     <div>
-        <button type="button" id="LBtn" >좌</button>
-        <button type="button" id="RBtn">우</button>
-        <button type="button" id="rotateBtn">회전</button>
-        <button type="button" id="downBtn">하강</button>
+      <button type="button" id="LBtn">좌</button>
+      <button type="button" id="RBtn">우</button>
+      <button type="button" id="rotateBtn">회전</button>
+      <button type="button" id="downBtn">하강</button>
     </div>
     <script src="tetris.js"></script>
-</body>
+  </body>
 </html>
